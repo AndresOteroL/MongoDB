@@ -1,0 +1,7 @@
+use("test")
+
+
+//db.users.find({edad: 35})
+//db.users.find({edad: 35}).count()
+
+db.users.find({nombre: 'Carlos'})
